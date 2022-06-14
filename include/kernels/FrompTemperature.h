@@ -11,5 +11,5 @@ public:
 
 protected:
   virtual ADRealVectorValue precomputeQpResidual() override;
-  const Real _thermal_conductivity;
+  const Real & _thermal_conductivity;
 };

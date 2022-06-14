@@ -23,7 +23,7 @@
   [./diffusion]
     type = FrompTemperature
     variable = temperature # Operate on the "temperature" variable from above
-    #thermal_conductivity = 0.15 
+    thermal_conductivity = 0.15 
   [../]
 []
 
